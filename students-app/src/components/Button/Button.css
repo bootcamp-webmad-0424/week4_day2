@@ -1,0 +1,11 @@
+.Button {
+    background-color: none;
+    border: 1px solid;
+    color: black;
+    padding: 20px 50px;
+    display: inline-block;
+    margin: 20px 20px 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #e0e0e0;
+}

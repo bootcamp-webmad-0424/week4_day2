@@ -1,0 +1,21 @@
+.Navbar {
+    border-bottom: 1px solid;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar img {
+    width: 80px;
+}
+
+.Navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.Navbar li {
+    margin-left: 10px;
+}

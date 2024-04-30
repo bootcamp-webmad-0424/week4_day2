@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add React to a Website</title>
+    <meta charset="UTF-8" />
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        var root = ReactDOM.createRoot(document.getElementById('root'))
+
+        var content = <h1>Empezamos con React :3</h1>
+        var header = <header className="Header">{content}</header>
+
+        root.render(header)
+
+    </script>
+
+</body>
+
+</html>
